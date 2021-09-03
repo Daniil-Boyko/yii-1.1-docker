@@ -1,0 +1,10 @@
+2021/09/03 22:35:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "up". in /usr/share/nginx/html/yii/framework/web/CController.php:486
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CController.php(270): CController->missingAction()
+#1 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): CController->run()
+#2 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/testwithoutrus/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/testwithoutrus/index.php?r=my/up
+---
