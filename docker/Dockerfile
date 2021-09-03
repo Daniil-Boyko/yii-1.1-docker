@@ -5,7 +5,9 @@ RUN apt-get update && \
       php7.4-xdebug \
       net-tools \
       procps \
-      curl
+      curl \
+      vim \
+      nano
 
 COPY xdebug.ini /etc/php/7.4/mods-available/xdebug.ini
 
